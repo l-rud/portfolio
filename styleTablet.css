@@ -1,0 +1,13 @@
+@media (max-width: 1023px) {
+  .container {
+      width: 90%;
+  }
+
+  .my-heading {
+      font-size: 2em;
+  }
+
+  .sub-heading {
+      font-size: 1.1em;
+  }
+}
