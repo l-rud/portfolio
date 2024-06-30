@@ -2,8 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff; /* white background */
-    color: #333; /* dark gray text */
+    background-color: #fff;
+    /* white background */
+    color: #333;
+    /* dark gray text */
 }
 
 .container {
@@ -12,8 +14,10 @@ body {
 }
 
 .header {
-    background-color: #333; /* dark gray background */
-    color: #fff; /* white text */
+    background-color: #333;
+    /* dark gray background */
+    color: #fff;
+    /* white text */
     padding: 20px 0;
     text-align: center;
 }
@@ -25,7 +29,8 @@ body {
 
 .section {
     padding: 50px 0;
-    background-color: #f9f9f9; /* light gray background */
+    background-color: #f9f9f9;
+    /* light gray background */
 }
 
 .content {
@@ -35,13 +40,15 @@ body {
 .my-heading {
     font-size: 2.5em;
     margin-bottom: 10px;
-    color: #333; /* dark gray heading */
+    color: #333;
+    /* dark gray heading */
 }
 
 .sub-heading {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #666; /* medium gray text */
+    color: #666;
+    /* medium gray text */
 }
 
 /* Adjustments for larger screens */
@@ -49,4 +56,80 @@ body {
     .container {
         width: 90%;
     }
+}
+
+/* portfolio section */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: calc(20% - 20px);
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-details {
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-tech {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #e0e0e0;
+    /* Light gray background for icons */
+}
+
+.icon-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.icon-link:hover {
+    background-color: #666;
+}
+
+.icon-link i {
+    font-size: 1.2em;
 }

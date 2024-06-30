@@ -1,18 +1,70 @@
 @media (max-width: 767px) {
     .container {
-        width: 100%;
-        padding: 0 10px;
+        width: 90%;
+        padding: 0 15px; 
     }
 
     .header h1 {
-        font-size: 1.5em;
+        font-size: 1.8em; 
     }
 
     .my-heading {
-        font-size: 1.8em;
+        font-size: 1.5em; 
     }
 
     .sub-heading {
-        font-size: 1em;
+        font-size: 0.9em; 
+        line-height: 1.6; 
+        margin-bottom: 20px; 
+    }
+
+    .card-container {
+        display: block; /* block layout for single card per row */
+    }
+
+    .card {
+        width: 90%; /* % width of the container */
+        max-width: none; 
+        margin-bottom: 20px; /* margin bottom for spacing */
+    }
+
+    .card-img {
+        height: 200px; /* Fixed height for beetter image consistency */
+    }
+
+    .card-details {
+        padding: 15px; /* for better spacing */
+    }
+
+    .card-title {
+        font-size: 1.2em; 
+    }
+
+    .card-tech {
+        font-size: 0.9em; 
+    }
+
+    .card-icons {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background-color: #f5f5f5; /* Lightened background color for contrast */
+        border-top: 1px solid #ddd; /* border for separation */
+    }
+
+    .icon-link {
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+        border-radius: 50%;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        transition: background-color 0.3s ease;
+    }
+
+    .icon-link:hover {
+        background-color: #666;
     }
 }
